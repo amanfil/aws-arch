@@ -1,0 +1,21 @@
+{
+    "DBSecurityGroups": [
+        {
+            "VpcId": "vpc-abcd1234",
+            "DBSecurityGroupDescription": "default:vpc-abcd1234",
+            "IPRanges": [
+                {
+                    "Status": "authorized",
+                    "CIDRIP": "xxx.xxx.xxx.xxx/n"
+                },
+                {
+                    "Status": "authorized",
+                    "CIDRIP": "xxx.xxx.xxx.xxx/n "
+                }
+            ],
+            "OwnerId": "123456789012",
+            "EC2SecurityGroups": [],
+            "DBSecurityGroupName": "default:vpc-abcd1234"
+        }
+    ]
+}
